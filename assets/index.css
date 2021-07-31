@@ -1,0 +1,23 @@
+.font {
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+}
+
+.font-cursos {
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    font-size: 25px;
+}
+
+.img-curso{
+    width: 40px;
+    margin-left: 10px;
+}
+
+
+
+/* .center {
+    margin-left: 330px;
+    margin-right: 93px;
+    width: 10em
+} */

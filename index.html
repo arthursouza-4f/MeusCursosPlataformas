@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="assets/index.css" rel="stylesheet" >
+    <title>Cursos</title>
+  </head>
+  
+  <body>
+    <br><br>
+    <div class="container">
+    <h1 class="fst-italic font">Resumo de cursos por plataformas</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button font-cursos" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Alura
+          <img src="assets/logos/alura.png" class="img-curso" alt="Alura">
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Java JRE e JDK: Escreva o seu primeiro código com Eclipse.</strong> Nesse curso aprendi os conceitos basicos sobre java e escrevi 
+            meu primeiro codigo em java <a href="https://cursos.alura.com.br/certificate/d75e3055-c87f-45e6-a5e1-5c3e345d40e1">Credencial</a>.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed font-cursos " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Udemy
+          <img src="assets/logos/udemy.jpg" class="img-curso" alt="Alura">
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Dominando Banco de Dados com MySQL.</strong> Nesse curso aprendi a dominar o MySQL, aprendi conceitos como:<strong> Select, join's, procedures, views  e outros.</strong> <a href="https://www.udemy.com/certificate/UC-bc61b10c-c2e1-410b-9de5-53c9e355868d/">Credencial</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container">
+    <h1 class="fst-italic font">Meus projetos</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed font-cursos" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Github
+                <img src="assets/logos/gitHub.png" class="img-curso" alt="Alura">
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <strong>Meus projetos.</strong> Aqui você pode encontrar os projetos já feitos durante a
+                minha carreirra. <a href="https://github.com/arthursouza-4f">Github</a>.
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
